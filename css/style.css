@@ -1,0 +1,9 @@
+.batalla{
+    background-color: #8F0101;
+    color: white;
+    border: none;
+    border-radius: 8%;
+    width: 8vw;
+    font-size: 14px;
+    padding: 12px;
+}
