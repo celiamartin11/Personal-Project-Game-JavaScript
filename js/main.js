@@ -1,23 +1,22 @@
-'use strict'
+const ejercito_mal_punto = [1,2,3,4,5];
+const gameButton = document.querySelector(".js-start-game");
+const userTeam = document.querySelector(".js-select");
+const messageBanner = document.querySelector(".js-game-info");
 
-const select = document.querySelector('.js-select');
-const raza1= document.querySelector('.js-raza1');
-const raza2= document.querySelector('.js-raza2');
-const raza3= document.querySelector('.js-raza3');
-const raza4= document.querySelector('.js-raza4');
-const raza5= document.querySelector('.js-raza5');
-const button2= document.querySelector('.js-button2');
+gameButton.addEventListener("click", () => {
+  
+  let numRandom = getRandomNumber(5);
 
-select.addEventListener('click', () => {
-    if (raza1.value < ) {
-    generatedGreet.innerHTML =`¡Hola ${nameInput.value}!`; 
-      }
-    else{
-      generatedGreet.innerHTML = 'Dime tu nombre'
-    }
-  });
+  if(ejercito_mal_punto[numRandom-1] > userTeam.value) {
+    messageBanner.innerHTML = "Ha ganado el Ejército del Mal! Vuelve a Intentarlo.";
+  } else if(ejercito_mal_punto[numRandom-1] < userTeam.value) {
+    messageBanner.innerHTML = "Ha ganado el Ejército del Bien! Enhorabuena.";
+  } else {
+    messageBanner.innerHTML = "Empate.";
+  }
 
+});
 
-/*function getRandomNumber(max) {
-    return Math.ceil(Math.random() * max);
-   }
+function getRandomNumber(max) { 
+	return Math.ceil(Math.random() * max); 
+} 
