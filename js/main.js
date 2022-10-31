@@ -8,10 +8,8 @@ const raza4= document.querySelector('.js-raza4');
 const raza5= document.querySelector('.js-raza5');
 const button2= document.querySelector('.js-button2');
 
-
-
 select.addEventListener('click', () => {
-    if (nameInput.value) {
+    if (raza1.value < ) {
     generatedGreet.innerHTML =`¡Hola ${nameInput.value}!`; 
       }
     else{
