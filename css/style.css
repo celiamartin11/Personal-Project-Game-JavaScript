@@ -1,9 +1,75 @@
-.batalla{
+.container {
+	width: 80vw;
+}
+
+.image {
+    height: 90vh;
+    padding: 20px 20px;
+    width: 18vw;
+}
+
+.content {
+	margin: -690px 0 0 340px;
+}
+
+.subtitle {
+	color: grey;
+	letter-spacing: 0.2em;
+	font-size: 18px;
+}
+
+.title {
+	color: #8F0101;
+    text-transform: uppercase;
+}
+
+.info {
+	font-size: 20px;
+	color: grey;
+    width: 76vw;
+}
+
+.game-info {
+	color: #6A6A6A;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.form{
+    margin: 20px 0 30px 340px;
+}
+
+.select{
+    font-size: 15px;
+    padding: 5px 4px 5px 5px;
+    margin-right: 10px;
+    border: 4px solid rgb(206, 206, 206);
+}
+
+.battle{
     background-color: #8F0101;
     color: white;
     border: none;
     border-radius: 8%;
     width: 8vw;
     font-size: 14px;
-    padding: 12px;
+    padding: 9.5px;
+    margin-bottom: -10px;
 }
+
+.start {
+    background-color: #8F0101;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 28.5vw;
+    height: 8vh;
+    border: none; 
+    margin: 5px 0 0 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+

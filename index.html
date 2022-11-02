@@ -8,21 +8,27 @@
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
-    <img class="" src="" alt="Persona agarrando una espada">
-    <h2>JUEGO</h2>
-    <h1>Los anillos de poder</h1>
-    <p>La Tierra Media está en guerra! En ella lucharán razas leales a Sauron contra otras bondadosas que no quieren que el mal reine sobre sus tierras</p>
-    <p>Eres un jugador del ejército del bien, no olvides tu misión de ganar la batalla</p>
-    <select class="js-select">
-      <option value="Seleccione la raza con la que va a jugar" disabled selected>Seleccione la raza con la que va a jugar</option>
-      <option class="js-raza1" value="1">Raza 1: Pelosos con fuerza (1)</option>
-      <option class="js-raza2" value="2">Raza 2: Sureños buenos con fuerza (2)</option>
-      <option class="js-raza3" value="3">Raza 3: Enanos con fuerza (3)</option>
-      <option class="js-raza4" value="4">Raza 4: Númenóreanos con fuerza (4)</option>
-      <option class="js-raza5" value="5">Raza 5: Elfos con fuerza (5)</option>
-    </select>
-    <button class="batalla js-start-game">Batalla</button>
-    <div class="js-game-info">¡Comienza la batalla!</div>   
+  <div class="container">
+        <img class="image" src="./img/rey.png" alt="Persona agarrando una espada">
+  </div>
+  <div class="content">
+    <h2 class="subtitle">JUEGO</h2>
+    <h1 class="title">Los anillos de poder</h1>
+    <p class="info">La Tierra Media está en guerra! En ella lucharán razas leales a Sauron contra otras bondadosas que no quieren que el mal reine sobre sus tierras.</p>
+    <p class="game-info">Eres un jugador del ejército del bien, no olvides tu misión de ganar la batalla.</p>
+  </div>
+  <form class="form">
+      <select class="select" name="jugada" id="jugada">
+        <option value="Sele ccione la raza con la que va a jugar" disabled selected>Seleccione la raza con la que va a jugar</option>
+        <option value="1">Raza 1: Pelosos con fuerza (1)</option>
+        <option value="2">Raza 2: Sureños buenos con fuerza (2)</option>
+        <option value="3">Raza 3: Enanos con fuerza (3)</option>
+        <option value="4">Raza 4: Númenóreanos con fuerza (4)</option>
+        <option value="5">Raza 5: Elfos con fuerza (5)</option>
+      </select>
+        <button class="battle">Batalla</button>
+  </form>
+    <p class="start">¡Comienza la batalla!</p>
   <script src="./js/main.js"></script>  
 </body>
 </html>
