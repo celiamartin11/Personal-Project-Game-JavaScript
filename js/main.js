@@ -4,6 +4,8 @@ const ejercito_mal_fuerza = [2,2,2,3,5];
 const gameButton = document.querySelector(".battle");
 const userTeam = document.querySelector(".select");
 const start = document.querySelector(".start");
+const playerPoints = document.querySelector(".player-points");
+const pcPoints = document.querySelector(".pc-points");
 
 gameButton.addEventListener("click", (event) => {
   clickLogic(event);
