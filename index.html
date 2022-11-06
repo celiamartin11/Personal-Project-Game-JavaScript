@@ -19,16 +19,22 @@
   </div>
   <form class="form">
       <select class="select" name="jugada" id="jugada">
-        <option value="Seleccione la raza con la que va a jugar" disabled selected>Seleccione la raza con la que va a jugar</option>
+        <option value="default" disabled selected>Seleccione la raza con la que va a jugar</option>
         <option value="1">Raza 1: Pelosos con fuerza (1)</option>
         <option value="2">Raza 2: Sureños buenos con fuerza (2)</option>
         <option value="3">Raza 3: Enanos con fuerza (3)</option>
         <option value="4">Raza 4: Númenóreanos con fuerza (4)</option>
         <option value="5">Raza 5: Elfos con fuerza (5)</option>
       </select>
-        <button class="battle">Batalla</button>
+        <button class="battle js-battle">Batalla</button>
+        <button class="reset js-reset">Reiniciar</button>
   </form>
     <p class="start">¡Comienza la batalla!</p>
+  <div class="points">
+    <p class="rounds">Número de partidas:</p>
+    <p class="player-points">Puntos de la jugadora =</p>
+    <p class="pc-points">Puntos del ordenador =</p>
+  </div>
   <script src="./js/main.js"></script>  
 </body>
 </html>
