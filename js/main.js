@@ -1,21 +1,31 @@
 'use strict'
 
-const ejercito_mal_puntos = [2,2,2,3,5];
+const ejercito_mal_fuerza = [2,2,2,3,5];
 const gameButton = document.querySelector(".battle");
 const userTeam = document.querySelector(".select");
 const start = document.querySelector(".start");
 
-gameButton.addEventListener("click", () => {
-  let numRandom = getRandomNumber(5);
-  if(ejercito_mal_puntos[numRandom-1] > userTeam.value) {
-	  start.innerHTML = "Ha ganado el Ejército del Mal! Vuelve a Intentarlo.";
-  } else if(ejercito_mal_puntos[numRandom-1] < userTeam.value) {
-    start.innerHTML = "Ha ganado el Ejército del Bien! Enhorabuena.";
-  } else {
-    start.innerHTML = "Empate.";
-	}
+gameButton.addEventListener("click", (event) => {
+  clickLogic(event);
 });
 
 function getRandomNumber(max) { 
   return Math.ceil(Math.random() * max); 
 } 
+
+function printResult (textResult) {
+  start.innerHTML =  textResult;
+}
+
+function clickLogic (event) {
+  event.preventDefault();
+  let numRandom = getRandomNumber(5);
+  if(ejercito_mal_fuerza[numRandom-1] > userTeam.value) {
+    printResult("Ha ganado el Ejército del Mal! Vuelve a Intentarlo.");
+  } else if(ejercito_mal_fuerza[numRandom-1] < userTeam.value) {
+    printResult("Ha ganado el Ejército del Bien! Enhorabuena.");
+  } else {
+    printResult("Empate.");
+	}
+}
+
