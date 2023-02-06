@@ -22,4 +22,6 @@ A continuación, en el rectángulo grande de color rojo *("¡Comienza la batalla
 
 A su vez, el apartado de los puntos del jugador o del ordenador se irán sumando cuando estos vayan ganando, como en el caso del *Número de partidas* que también irán avanzando hasta llegar a 10, donde finalizará el juego. 
 
+![game](https://user-images.githubusercontent.com/113979188/217068932-46e65758-7cf4-4bbb-8630-667d38c97e6a.png)
+
 Si has finalizado, y deseas volver a jugar, solo tienes que darle a *Reiniciar*. 
