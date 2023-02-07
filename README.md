@@ -6,7 +6,7 @@ El primer contacto que tuve con JavaScript es un juego ambientado en *"Los anill
 
 ## Descripción 
 
-**Este proyecto se centra** más **en** lo aprendido, por aquel entonces, sobre **JavaScript**. Es por ello, por lo que CSS3 queda a un segundo o tercer plano, ade,ás de **no ser un proyecto responsive.**
+**Este proyecto se centra** más **en** lo aprendido, por aquel entonces, sobre **JavaScript**. Es por ello, por lo que CSS3 queda a un segundo o tercer plano, además de **no ser un proyecto responsive.**
 
 En este proyecto podrás encontrar un "select" con varias opciones. Dichas opciones son razas, las cuales equivalen a una puntuación concreta que va del 1 al 5. 
 
