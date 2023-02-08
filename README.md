@@ -24,4 +24,4 @@ A su vez, el apartado de los puntos del jugador o del ordenador se irán sumando
 
 ![game](https://user-images.githubusercontent.com/113979188/217068932-46e65758-7cf4-4bbb-8630-667d38c97e6a.png)
 
-Si has finalizado, y deseas volver a jugar, solo tienes que darle a *Reiniciar*. 
+Si has finalizado, y deseas volver a jugar, solo tienes que darle a *Reiniciar*...
